@@ -15,7 +15,7 @@ public class Province extends DataSupport {
     public String getProvinceName(){
         return provinceName;
     }
-    public void setProvinceName(){
+    public void setProvinceName(String provinceName){
         this.provinceName=provinceName;
     }
     public int getProvinceCode(){
